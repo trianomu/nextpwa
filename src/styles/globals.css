@@ -1,0 +1,66 @@
+/* styles/globals.css */
+.carousel-indicators {
+  position: absolute; 
+  bottom: -8px; 
+  left: 0; 
+  right: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 0; 
+  margin: 0; 
+  list-style: none; 
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ccc;
+  opacity: 1;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px; 
+  border: 0; 
+  text-indent: -999px; 
+  cursor: pointer; 
+}
+
+.carousel-indicators .active {
+  background-color: #FF3D00;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.navbar-bottom-wrapper {
+  z-index: 1000;
+  border-top: 4px solid white; 
+  height: 80px;
+}
+
+.nav-center-button {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-icon {
+ height: 24px;
+ width: 24px;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.red-dot {
+  position: absolute;
+  top:7px;
+  right: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white; 
+}
