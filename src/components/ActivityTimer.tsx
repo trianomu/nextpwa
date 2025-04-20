@@ -13,7 +13,7 @@ const ActivityTimer = () => {
   return (
     <>
     <h5 className='mt-3 fw-bold'>Today's Activity</h5>
-      <Card className="mb-3 border-0">
+      <Card className="mb-1 border-0">
         <Card.Body className="d-flex justify-content-between text-center">
           <div>
           <FontAwesomeIcon icon={faClock}  style={flippedIconStyle} className="mb-1 my-icon" />

@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 export default function HomePage() {
   return (
-    <Container className="pb-5">
+    <Container className="pb-5" style={{ height: '100vh', overflowY: 'auto' }}>
       <div className='d-flex flex-row justify-content-between align-items-center'>
         <h2 className="text-danger fw-bold mt-3">KerjaYuk!</h2>
         <div className='icon-wrapper'>

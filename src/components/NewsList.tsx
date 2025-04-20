@@ -40,7 +40,7 @@ const NewsList = () => {
 
   return (
     <div className='mb-4'>
-        <h5 className='mt-4 fw-bold'>PCS News</h5>
+        <h5 className='mt-0 fw-bold'>PCS News</h5>
         <div id="newsCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
         <div className="carousel-inner">
             {newsData.map((news, index) => (
